@@ -19,23 +19,18 @@ class SignupForm extends Component{
   }
 
   onSubmit(e){
-    const ghUrl = "http://localhost:3000/"; // changed from "https://madeleinemila.github.io/burning-airlines"
+    const ghUrl = "http://localhost:3000"; // changed from "https://madeleinemila.github.io/burning-airlines"
     e.preventDefault();
     if (this.state.password === "chicken")
     {
-        if (this.state.username === "Jose")
+        if (this.state.username === "Sam Gelwyn")
         {
-          window.location.href = `${ghUrl}/#/jose`;
+          window.location.href = `${'https://dreamteam-airlines.herokuapp.com'}/users/2`;
         }
 
-        if (this.state.username === "Maddi")
+        if (this.state.username === "Bladsey")
         {
-          window.location.href = `${ghUrl}/#/maddi`;
-        }
-
-        if (this.state.username === "Craigsy")
-        {
-          window.location.href = `${ghUrl}/#/craigsy`;
+          window.location.href = `${ghUrl}/#/Bladsey`;
         }
 
     }

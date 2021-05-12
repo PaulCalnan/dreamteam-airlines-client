@@ -9,7 +9,7 @@ class Home extends Component{
         <div className="flex-header">
           <div className="flex-1">
             <h1 className="logo login-logo">DREAMTEAM AIRLINES</h1>
-            <h2 className="welcome">welcomes you</h2>
+            <h2 className="welcome">Who arrives... Wins</h2>
           </div>
           <div className="flex-1">
             <img src="https://i.imgur.com/SeT47JK.jpg" alt="Sam"/>
@@ -17,7 +17,7 @@ class Home extends Component{
         </div>
         <p>Have an account? Please login below.</p>
         <SignupForm />
-        <p>If you need a customer account, call 1800 DREAM and we'd love to help.</p>
+        <p>Have a complaint? call 1800 DREAM and ask for David.</p>
 
       </div>
     );

@@ -20,7 +20,7 @@ class DisplayFlightsV2 extends Component {
   render() {
     return (
       <div>
-        <p>Do we fly your selected route? If we do, available flights will pop up below.</p>
+        <p>Our available flights shown below.</p>
         {this.props.flights_all.map (s=>
           <p key={s.id}>{s.origin} to {s.destination} on {s.date}: Flight&nbsp;{s.number}
           <button className="res-button book" onClick = { () => { this._handleClick(s.id) } }>

@@ -10,7 +10,7 @@ class ExistingRes extends Component {
   }
 
   _handleClick = (res_id,array_res) => {
-    axios.delete(`https://burningairlinesdb.herokuapp.com/reservations/${res_id.id}`).then(
+    axios.delete(`https://dreamteam-airlines.herokuapp.com/reservations/${res_id.id}`).then(
         this.setState({
           status: "Reservation successfully cancelled."
         })

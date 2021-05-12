@@ -27,7 +27,7 @@ class Container extends Component {
 
   clicking(e){
     e.preventDefault();
-     window.location.href = "http://localhost:3000/";
+     window.location.href = "http://localhost:3000";
     //window.location.href = "https://madeleinemila.github.io/burning-airlines/";
   }
 
@@ -40,7 +40,7 @@ class Container extends Component {
             <div className="flex-header">
               <div className="flex-1">
                 <p>WELCOME {this.state.username.toUpperCase() }</p>
-                <p>Search for a flight right here</p>
+                <p>Search for a flight</p>
               </div>
               <div className="flex-logout">
                 <button className="res-button logout-button">

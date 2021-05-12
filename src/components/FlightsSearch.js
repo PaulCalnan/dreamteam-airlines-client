@@ -3,7 +3,7 @@ import axios from 'axios';
 import DisplayFlightsV2 from './DisplayFlightsV2';
 
 
-const PlaneURL = 'https://burningairlinesdb.herokuapp.com/flights.json';
+const PlaneURL = 'https://dreamteam-airlines.herokuapp.com/flights.json';
 
 // ****** Child ***************************************************************
 class SearchForm extends Component{
@@ -44,9 +44,8 @@ class SearchForm extends Component{
           Origin: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </span>
           <select value={this.state.origin} onChange = {this.handleChange1} className="select-city">
             <option value="">Select...</option>
-            <option value="Lima">Lima</option>
-            <option value="New York">New York</option>
             <option value="Sydney">Sydney</option>
+            <option value="Brisbane">Brisbane</option>
           </select>
         </label><br />
 
@@ -54,9 +53,8 @@ class SearchForm extends Component{
           Destination: &nbsp; &nbsp; &nbsp;</span>
           <select value={this.state.destination} onChange = {this.handleChange2} className="select-city">
             <option value="">Select...</option>
-            <option value="Lima">Lima</option>
-            <option value="New York">New York</option>
-            <option value="Sydney">Sydney</option>
+            <option value="Perth">Perth</option>
+            <option value="Melbourne">Melbourne</option>
           </select>
         </label><br />
 
