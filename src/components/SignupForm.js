@@ -25,7 +25,7 @@ class SignupForm extends Component{
     {
         if (this.state.username === "Sam Gelwyn")
         {
-          window.location.href = `${'https://dreamteam-airlines.herokuapp.com'}/users/2`;
+          window.location.href = `${ghUrl}/#/Sam Gelwyn`;
         }
 
         if (this.state.username === "Bladsey")

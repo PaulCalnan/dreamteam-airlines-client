@@ -8,9 +8,8 @@ const Routes = (
   <Router>
     <div>
       <Route exact path="/" component = {Home} />
-      <Route exact path="/paul" render={props => <App user_id="7" {...props} />} />
-      <Route exact path="/jonesy" render={props => <App user_id="8" {...props} />} />
-      <Route exact path="/craigsy" render={props => <App user_id="9" {...props} />} />
+      <Route exact path="/Bladsey" render={props => <App user_id="1" {...props} />} />
+      <Route exact path="/Sam Gelwyn" render={props => <App user_id="2" {...props} />} />
     </div>
   </Router>
 )

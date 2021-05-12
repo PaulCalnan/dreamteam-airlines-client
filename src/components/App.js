@@ -13,7 +13,7 @@ class App extends Component {
       <div className="App">
         <div className="header header-flights flex-header">
           <div className="flex-1">
-            <h1 className="logo">BURNING AIRLINES</h1>
+            <h1 className="logo">DREAMTEAM AIRLINES</h1>
           </div>
           <div className="flex-1">
             <img src="https://i.imgur.com/SeT47JK.jpg" alt="Sam"/>
@@ -26,4 +26,4 @@ class App extends Component {
   }
 }
 
-export default App; 
+export default App;

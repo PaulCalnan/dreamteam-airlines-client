@@ -142,7 +142,7 @@ img {
 
 .logout-button {
   float: right;
-  background-color: #3ec4d2;
+  background-color: red;
   color: white;
   margin-top: 20px;
 }
