@@ -82,7 +82,7 @@ class SeatMap extends Component {
               {/* row letter */}
               <span className="row-num">{ String.fromCharCode(i+65) }</span>
               {/*  make seat re num of cols */}
-              { [...Array(this.props.cols)].map((e, j) =>
+              { [...Array(this.props.columns)].map((e, j) =>
                 <Seat
                   key={`${String.fromCharCode(i+65)}${j+1}`}
                   seatId={`${String.fromCharCode(i+65)}${j+1}`}

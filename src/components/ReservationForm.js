@@ -41,7 +41,7 @@ class ReservationForm extends Component {
       status: ""
     };
     const fetchFlight = (id) => {
-      // console.log( id );
+       console.log( id );
       axios.get(`https://dreamteam-airlines.herokuapp.com/flights/${ id }.json`)
         .then( results => {
            this.setState({ flight: results.data })
@@ -83,7 +83,7 @@ class ReservationForm extends Component {
       }
     )
     .then(response => {
-      // console.log( response.statusText === "Created" ? "Reservation complete. Thank you for choosing Burning." : "" );
+      // console.log( response.statusText === "Created" ? "Reservation complete. Thank you for choosing Dreamteam." : "" );
       this.setState({
         status: response.statusText === "Created" ? "Reservation complete. Thank you for choosing Dreamteam." : ""
       });
@@ -91,7 +91,7 @@ class ReservationForm extends Component {
     .catch(error => {
       // console.log( error.message === "Request failed with status code 422" ? "Sorry, that seat is unavailable." : "" );
       this.setState({
-        status: error.message === "Request failed with status code 422" ? "Sorry, that seat is unavailable. Please choose an available seat or call 1800 BURNING for assistance." : ""
+        status: error.message === "Request failed with status code 422" ? "Sorry, that seat is unavailable. Please choose an available seat or call David for assistance." : ""
       });
     })
 
@@ -105,11 +105,11 @@ class ReservationForm extends Component {
         <h1>Make a reservation</h1>
         <UserInfo userName={ this.state.user.name } />
         <FlightInfo flightNumber={ this.state.flight.number } flightId={ this.state.flight.id } />
-        <SeatMap rows={ this.state.flight.rows } cols={ this.state.flight.cols } takenSeats={ this.state.takenSeats } passSeat={ this.saveSelected } />
+        <SeatMap rows={ this.state.flight.rows } columns={ this.state.flight.columns } takenSeats={ this.state.takenSeats } passSeat={ this.saveSelected } />
         <SubmitComplex onClick={ this.addNewRes } />
         <ReservationStatus status={ this.state.status } />
         {/* <ExistingRes res={ this.state.user } /> */}
-        { this.state.user !== {} ? <ExistingRes res={ this.state.user } /> : null }
+        { this.state.user == {} ? <ExistingRes res={ this.state.user } /> : null }
         {/* { this.state.flight_id !== '' ? <ReservationForm flightId={ this.state.flight_id } /> : null } */}
       </div>
     );

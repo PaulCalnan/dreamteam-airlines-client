@@ -19,7 +19,7 @@ class SignupForm extends Component{
   }
 
   onSubmit(e){
-    const ghUrl = "http://localhost:3000"; // changed from "https://madeleinemila.github.io/burning-airlines"
+    const ghUrl = "http://localhost:3000"; 
     e.preventDefault();
     if (this.state.password === "chicken")
     {
@@ -28,9 +28,9 @@ class SignupForm extends Component{
           window.location.href = `${ghUrl}/#/Sam Gelwyn`;
         }
 
-        if (this.state.username === "Bladsey")
+        if (this.state.username === "Joel Turnbull")
         {
-          window.location.href = `${ghUrl}/#/Bladsey`;
+          window.location.href = `${ghUrl}/#/Joel Turnbull`;
         }
 
     }

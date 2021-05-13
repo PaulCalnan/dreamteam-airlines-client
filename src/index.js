@@ -8,6 +8,8 @@ import Routes from './Routes';
 import { unregister } from './registerServiceWorker';
 unregister();
 
+
+
 // ReactDOM.render(<App />, document.getElementById('root'));
 ReactDOM.render(Routes, document.getElementById('root'));
 // registerServiceWorker();
