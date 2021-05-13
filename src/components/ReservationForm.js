@@ -109,7 +109,7 @@ class ReservationForm extends Component {
         <SubmitComplex onClick={ this.addNewRes } />
         <ReservationStatus status={ this.state.status } />
         {/* <ExistingRes res={ this.state.user } /> */}
-        { this.state.user == {} ? <ExistingRes res={ this.state.user } /> : null }
+        { this.state.user === {} ? <ExistingRes res={ this.state.user } /> : null }
         {/* { this.state.flight_id !== '' ? <ReservationForm flightId={ this.state.flight_id } /> : null } */}
       </div>
     );
