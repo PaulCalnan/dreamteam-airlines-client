@@ -19,7 +19,7 @@ class SignupForm extends Component{
   }
 
   onSubmit(e){
-    const ghUrl = "http://localhost:3000"; 
+    const ghUrl = "https://paulcalnan.github.io/dreamteam-airlines-client/"; 
     e.preventDefault();
     if (this.state.password === "chicken")
     {

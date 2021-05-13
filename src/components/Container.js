@@ -27,8 +27,8 @@ class Container extends Component {
 
   clicking(e){
     e.preventDefault();
-     window.location.href = "http://localhost:3000";
-    //window.location.href = "https://madeleinemila.github.io/Dreamteam-airlines/";
+     window.location.href = "https://paulcalnan.github.io/dreamteam-airlines-client/";
+    
   }
 
 
