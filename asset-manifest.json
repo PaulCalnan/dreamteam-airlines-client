@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dreamteam-airlines-client/static/css/main.e91a7ba6.chunk.css",
+    "main.js": "/dreamteam-airlines-client/static/js/main.65628d35.chunk.js",
+    "main.js.map": "/dreamteam-airlines-client/static/js/main.65628d35.chunk.js.map",
+    "runtime-main.js": "/dreamteam-airlines-client/static/js/runtime-main.97d12ca0.js",
+    "runtime-main.js.map": "/dreamteam-airlines-client/static/js/runtime-main.97d12ca0.js.map",
+    "static/js/2.d746167d.chunk.js": "/dreamteam-airlines-client/static/js/2.d746167d.chunk.js",
+    "static/js/2.d746167d.chunk.js.map": "/dreamteam-airlines-client/static/js/2.d746167d.chunk.js.map",
+    "index.html": "/dreamteam-airlines-client/index.html",
+    "static/css/main.e91a7ba6.chunk.css.map": "/dreamteam-airlines-client/static/css/main.e91a7ba6.chunk.css.map",
+    "static/js/2.d746167d.chunk.js.LICENSE.txt": "/dreamteam-airlines-client/static/js/2.d746167d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.97d12ca0.js",
+    "static/js/2.d746167d.chunk.js",
+    "static/css/main.e91a7ba6.chunk.css",
+    "static/js/main.65628d35.chunk.js"
+  ]
+}
