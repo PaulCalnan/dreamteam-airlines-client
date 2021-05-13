@@ -105,11 +105,7 @@ class ReservationForm extends Component {
         <h1>Make a reservation</h1>
         <UserInfo userName={ this.state.user.name } />
         <FlightInfo flightNumber={ this.state.flight.number } flightId={ this.state.flight.id } />
-<<<<<<< HEAD
         <SeatMap rows={ this.state.flight.rows } columns={ this.state.flight.columns } takenSeats={ this.state.takenSeats } passSeat={ this.saveSelected } />
-=======
-        <SeatMap rows={ this.state.flight.rows } cols={ this.state.flight.columns } takenSeats={ this.state.takenSeats } passSeat={ this.saveSelected } />
->>>>>>> 9936ea9c04df4f896ee463a2a64f5b55e4a4ba57
         <SubmitComplex onClick={ this.addNewRes } />
         <ReservationStatus status={ this.state.status } />
         {/* <ExistingRes res={ this.state.user } /> */}
